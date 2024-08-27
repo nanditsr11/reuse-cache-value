@@ -26,6 +26,6 @@ The second print(sum_func(2,3)) call returns immediately with the cached result.
 The print(sum_func(4,9)) call also takes 5 seconds since these arguments were not cached yet.
 
 ## Explanation
-# cache decorator: This decorator uses a dictionary (cache_value) to store the results of function calls. The keys are the arguments passed to the function, and the values are the results. If the same arguments are passed again, the cached result is returned.
-# time.sleep(5): This line in the sum_func function simulates a time-consuming operation by delaying the function's execution for 5 seconds.
+cache decorator: This decorator uses a dictionary (cache_value) to store the results of function calls. The keys are the arguments passed to the function, and the values are the results. If the same arguments are passed again, the cached result is returned.
+time.sleep(5): This line in the sum_func function simulates a time-consuming operation by delaying the function's execution for 5 seconds.
 
